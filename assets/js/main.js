@@ -17,5 +17,8 @@ $(document).ready(function() {
             .pauseFor(1000)
             .start()
     }
+
+    // powerglitch
+    PowerGlitch.glitch('.glitch')
 });
 
