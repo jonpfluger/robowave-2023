@@ -22,5 +22,31 @@ $(document).ready(function() {
     PowerGlitch.glitch('.glitch', {
         hideOverflow: true,
     })
+
+    // last error date
+    $('[data-lastErrorDate]').each(function() {
+        // get date from data-lastErrorDate
+        var errorDate = $(this).attr('data-lastErrorDate')
+        // turn date into dayjs object
+        errorDate = dayjs(errorDate)
+        // get todays date as a dayjs object
+        var todaysDate = dayjs()
+        // find difference in days between dates
+        var diff = todaysDate.diff(errorDate, "day")
+        
+        // determine text color class
+        var textClass
+        if (diff < 5) {
+            textClass = 'text-danger'
+        } else if (diff < 30) {
+            textClass = 'text-warning'
+        } else {
+            textClass = 'text-success'
+        }
+        
+        $(this)
+            .text(`${diff} days since last error`)
+            .addClass(textClass)
+    })
 });
 
