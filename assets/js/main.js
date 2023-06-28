@@ -19,6 +19,8 @@ $(document).ready(function() {
     }
 
     // powerglitch
-    PowerGlitch.glitch('.glitch')
+    PowerGlitch.glitch('.glitch', {
+        hideOverflow: true,
+    })
 });
 
