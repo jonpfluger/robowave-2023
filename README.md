@@ -1,7 +1,8 @@
 # Robowave-2023
+
 A ficticious robot company website for a Bootstrap, jQuery code-along in class.
 
-### Technologies
+## Technologies
 * [Bootstrap 5](https://getbootstrap.com/)
 * [jQuery](https://api.jquery.com/)
 * [Fullpage scroll](https://alvarotrigo.com/fullPage/#)
@@ -12,7 +13,7 @@ A ficticious robot company website for a Bootstrap, jQuery code-along in class.
 
 ## Wireframe
 
-![wireframe](./assets/images/wireframe.png)
+![wireframe](./assets/images/screenshot.png)
 
 ## Shout outs 📢
 
