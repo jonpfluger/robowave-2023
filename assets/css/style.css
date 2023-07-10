@@ -8,20 +8,16 @@
 }
 
 body {
-  font-family: "Oxanium", monospace;
+  font-family: 'Oxanium', monospace;
 }
 
-/* bootstrap overrides */
+/* bootstrap overrides  */
 
 .text-success {
   color: var(--yellowGreen) !important;
 }
 
 .btn-success {
-  background-color: var(--yellowGreen);
-}
-
-.btn-success:hover {
   background-color: var(--yellowGreen);
 }
 
@@ -37,10 +33,6 @@ body {
   background-color: var(--rawSienna);
 }
 
-.btn-warning:hover {
-  background-color: var(--rawSienna);
-}
-
 .border-warning, .btn-warning {
   border-color: var(--rawSienna) !important;
 }
@@ -53,21 +45,14 @@ body {
   background-color: var(--horizon);
 }
 
-.btn-primary:hover {
-  background-color: var(--horizon);
-}
-
 .border-primary, .btn-primary {
   border-color: var(--horizon) !important;
 }
 
 /* override fullpagejs nav dots colors */
-
 #fp-nav ul li a span {
-  background-color: white;
+  background: white;
 }
-
-/* custom css */
 
 .section {
   background-repeat: no-repeat;
@@ -83,17 +68,17 @@ body {
 }
 
 #intro {
-  background-image: url('../images/large/robot-on-rocks.jpg');
+  background-image: url(../images/large/robot-on-rocks.jpg);
 }
 
 #new {
-  background-image: url('../images/large/evou-robots.jpg');
+  background-image: url(../images/large/evou-robots.jpg);
 }
 
 #used {
-  background-image: url('../images/large/refurbished-robots.jpg');
+  background-image: url(../images/large/refurbished-robots.jpg);
 }
 
 #contact {
-  background-image: url('../images/large/robots-among-us-2.jpg');
+  background-image: url(../images/large/robots-among-us-2.jpg);
 }
