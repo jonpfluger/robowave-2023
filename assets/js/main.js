@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // fullpage js
     $('#fullpage').fullpage({
         licenseKey: 'gplv3-license',
         navigation: true,
@@ -33,7 +34,6 @@ $(document).ready(function() {
         var todaysDate = dayjs()
         // find difference in days between dates
         var diff = todaysDate.diff(errorDate, "day")
-        
         // determine text color class
         var textClass
         if (diff < 5) {
@@ -49,4 +49,3 @@ $(document).ready(function() {
             .addClass(textClass)
     })
 });
-
