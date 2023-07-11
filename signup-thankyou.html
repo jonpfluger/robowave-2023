@@ -16,7 +16,7 @@
 <body class="bg-dark text-white">
 
     <main class="container">
-        <div class="card bg-translucent border-success text-center text-light mt-5 p-3">
+        <div class="card bg-transparent border-success text-center text-light mt-5 p-3">
           <h1 class="card-title">Thanks for signing up!</h1>
           <h6 class="card-subtitle mb-2">We sent an email to <a id="email"></a></h6>
           <p class="card-text">Please check your inbox to verify your account.</p>
@@ -29,7 +29,14 @@
     <!-- Custom js -->
     <script>
         // get email out of query params
-            // display in the #email anchor tag above
+        var params = new URLSearchParams(window.location.search)
+        var email = params.get("email")
+        // display in the #email anchor tag above
+        if (email) {
+          var emailAnchor = document.getElementById("email")
+          emailAnchor.href = "mailto:" + email
+          emailAnchor.innerText = email
+        }
     </script>
 </body>
 </html>
