@@ -48,4 +48,13 @@ $(document).ready(function() {
             .text(`${diff} days since last error`)
             .addClass(textClass)
     })
+
+    // listen for submit event on the signup form
+        // prevent default
+        // get the value out of the #email input
+        // create a user using jsonplaceholder API
+            // if successful
+                // redirect to the signup-thankyou.html?email=<email here>
+            
+
 });
