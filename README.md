@@ -1,6 +1,6 @@
 # Robowave-2023
 
-A ficticious robot company website for a Bootstrap, jQuery code-along in class.
+A ficticious robot company website for a Bootstrap, jQuery code-along in class. Third party API practice.
 
 ## Link
 
