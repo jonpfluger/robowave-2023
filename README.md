@@ -15,9 +15,13 @@ https://jonpfluger.github.io/robowave-2023/
 * [DayJS](https://day.js.org/)
 * [Oxanium Google Font](https://fonts.google.com/specimen/Oxanium)
 
+## Screenshot
+
+![screenshot](./assets/images/screenshot.png)
+
 ## Wireframe
 
-![wireframe](./assets/images/screenshot.png)
+![wireframe](./assets/images/wireframe.png)
 
 ## Shout outs 📢
 
