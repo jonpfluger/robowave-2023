@@ -2,7 +2,7 @@ const buildFeaturesList = features => features
     .map(string => `<li>${string}</li>`)
     .join("")
 
-export const getRobotPageHTML = ({name, price, condition, weight, features, numCodeViolations}) => {
+export const getRobotPageHTML = ({name, price, condition, weight, features, numCodeViolations, image}) => {
 
     return `<!DOCTYPE html>
     <html lang="en">
@@ -27,7 +27,7 @@ export const getRobotPageHTML = ({name, price, condition, weight, features, numC
         
         <div class="row mt-3">
           <div class="col-md-6">
-            <img src="https://placehold.co/400x400" alt="${name}" />
+            <img src="../assets/images/thumbs/${image}" alt="${name}" />
           </div>
           <div class="col-md-6">
             <h1>${name}</h1>
